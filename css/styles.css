@@ -230,14 +230,20 @@ address {
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    fill:
-        rgba(117, 117, 117, 1);
+    
+}
+.hdr-icon-mail:focus ,
+.hdr-icon-tel:focus{
+color:var(--accent-color);
 }
 
 /* ========ORDER======= */
 /* Эффективные решения для вашего бизнеса */
 
 section.hero {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 200px;
     padding-bottom: 200px;
     align-items: center;
@@ -521,7 +527,7 @@ s.ection-title.clients {
 /*========FOOTER========*/
 .container.footer {
     display: flex;
-    /* align-items: center; */
+    align-items:baseline; 
 }
 
 .footer-box {
@@ -605,7 +611,7 @@ s.ection-title.clients {
 
 .footer-link {
     margin-left: 70px;
-    padding-top: 12px;
+  
 }
 
 .footer-link-text {
